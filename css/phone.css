@@ -1,0 +1,82 @@
+@media only screen and (max-width: 320px) {
+  header {
+    padding: 0.4rem;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 0.5rem;
+  }
+
+  .topnav {
+    font-size: 0.1rem;
+    padding: 0 0.3rem;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 80%;
+    margin: 0.7em;
+    padding: 0.8em;
+    border-radius: 10%;
+    box-shadow: 1px 1px 3px gray;
+  }
+
+  .photo {
+    width: 4em;
+  }
+
+  .name {
+    font-size: 0.5em;
+    padding: 0.1rem;
+  }
+
+  .self-intro {
+    font-size: 0.3em;
+  }
+
+  footer {
+    font-size: 0.1em;
+    margin: 4em 0;
+    text-align: center;
+  }
+
+  /* portfolio */
+  .item {
+    padding: 5%;
+  }
+
+  .item-title {
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+  }
+
+  .item-description, input {
+    font-size: 0.5rem;
+  }
+
+
+  /* contact */
+  form {
+    width: 80%;
+    padding: 0 10%;
+    margin: 2rem 0;
+  }
+
+  input, textarea {
+    width: 95%;
+    margin: 5px 0;
+  }
+
+  textarea {
+    height: 70px;
+  }
+
+}

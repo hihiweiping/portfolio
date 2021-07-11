@@ -1,0 +1,141 @@
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0; 
+  font-family: Consolas, "Microsoft JhengHei";
+  color: #292929;
+  background-color: #f7f7f7;
+}
+
+h1,
+h3 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  color: hotpink;
+}
+
+hr {
+  border: 1px solid transparent;
+  border-width: 0 0 3px 0;
+  border-image: linear-gradient(90deg, rgb(252, 252, 252) 0%, rgb(255, 224, 247) 50%, rgb(252, 252, 252) 100%);
+  border-image-slice: 1; 
+  margin: 6px 0; 
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.topnav {
+  display: inline;
+}
+
+.topnav:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-2042508-jpeg.jpg");
+  height: auto;
+  margin: 0 auto;
+  justify-items: center;
+  align-items: flex-start;
+  position: relative;
+  background-size: cover;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10%;
+}
+
+.photo {
+  border-radius: 100%;
+  color: opacity 0;
+  display: block;
+  margin: auto;
+}
+
+.name {
+  font-weight: bold;
+  text-align: center;
+}
+
+.mygithub {
+  text-decoration: underline;
+}
+
+footer {
+  color: gray;
+  text-align: center;
+}
+
+/* portfolio */
+.item-title {
+  font-size: 1rem;
+  text-align: center;
+  color: black;
+  margin: 0;
+}
+
+.item-description {
+  color: gray;
+  margin: 0;
+}
+
+/* contact */
+form {
+  justify-content: center;
+}
+
+input, textarea{
+  color: transparent;
+  border: transparent;
+  border-bottom: solid 3px pink;
+  background-color: transparent;
+  outline: none;
+  position: relative;
+  display: inline-flex;
+  color: #333;
+}
+
+button {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  color: pink;
+  background: white;
+  border: white;
+  width: 50px;
+  border-radius: 10%;
+}
+
+button:hover {
+  color: white;
+  background: pink;
+  border: pink;
+  transform: translate(-50%);
+  cursor: pointer;
+}
