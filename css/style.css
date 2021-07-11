@@ -139,3 +139,8 @@ button:hover {
   transform: translate(-50%);
   cursor: pointer;
 }
+
+::placeholder {
+  font-size: 12px;
+  font-family: Consolas, "Microsoft JhengHei";
+}
